@@ -16,10 +16,15 @@ function Hit({hit}) {
                     </h2>
                 </a>
                 <Snippet hit={hit} attribute="description" />
-                <p>
-                    {' '}
-                    {hit.type}: {lastItem}{' '}
-                </p>
+                {hit.type == 'Docs' ? (
+                    <p>
+                        {'📑 ' + hit.type} {lastItem}
+                    </p>
+                ) : (
+                    <p>
+                        {'👨‍🚀 ' + hit.type} {lastItem}
+                    </p>
+                )}
             </article>
         </div>
     )

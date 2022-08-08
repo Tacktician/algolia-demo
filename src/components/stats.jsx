@@ -18,7 +18,7 @@ function Stats(props) {
         // query,
     } = useStats(props)
 
-    return <p className="results">{nbHits} results </p>
+    return <p className="results">{nbHits} results found</p>
 }
 
 export default Stats

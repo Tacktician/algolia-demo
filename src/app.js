@@ -38,8 +38,8 @@ function App() {
                     onSubmit={() => modal.current.open()}
                 />
                 <Hits hitComponent={Hit} />
-                <Pagination />
                 <Stats />
+                <Pagination />
             </Modal>
         </InstantSearch>
     )
