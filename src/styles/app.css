@@ -2,6 +2,7 @@
 @import './variables/colors.modules.css';
 @import './modal.css';
 @import './reset.css';
+@import './stats.css';
 
 * {
     box-sizing: border-box;

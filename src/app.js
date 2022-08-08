@@ -11,6 +11,7 @@ import 'instantsearch.css/themes/reset.css'
 
 import Hit from './components/hit.js'
 import Modal from './components/modal.jsx'
+import Stats from './components/stats.jsx'
 
 const searchClient = algoliasearch(
     'RO95H65NEO',
@@ -38,6 +39,7 @@ function App() {
                 />
                 <Hits hitComponent={Hit} />
                 <Pagination />
+                <Stats />
             </Modal>
         </InstantSearch>
     )
