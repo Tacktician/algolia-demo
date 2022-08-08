@@ -22,7 +22,7 @@ function Hit({hit}) {
                     </p>
                 ) : (
                     <p>
-                        {'👨‍🚀 ' + hit.type} {lastItem}
+                        {'🧰 ' + hit.type} {lastItem}
                     </p>
                 )}
             </article>

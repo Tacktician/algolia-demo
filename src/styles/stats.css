@@ -2,3 +2,12 @@
   padding: 8px 24px 8px 24px;
   color: var(--ds-blue-400);
 }
+
+.refinement {
+  display: flex;
+  align-items: center;
+}
+
+.toogle-refinement {
+  margin-right: 24px;
+}

@@ -6,6 +6,7 @@ import {
     InstantSearch,
     Pagination,
     SearchBox,
+    ToggleRefinement,
 } from 'react-instantsearch-hooks-web'
 import 'instantsearch.css/themes/reset.css'
 
@@ -17,13 +18,6 @@ const searchClient = algoliasearch(
     'RO95H65NEO',
     '8d249abc4671e5554fe8f451ffa5db50',
 )
-/**
- * add snipet to return smaller description
- * fix breadcrumbs
- * fix results returning as a numbered list
- * add side bar with preview
- * add highlight in the description
- */
 
 function App() {
     const modal = useRef(null)
@@ -38,7 +32,19 @@ function App() {
                     onSubmit={() => modal.current.open()}
                 />
                 <Hits hitComponent={Hit} />
-                <Stats />
+                <div className="refinement">
+                    <Stats />
+                    <ToggleRefinement
+                        className="toogle-refinement"
+                        attribute="Docs"
+                        label="Docs"
+                    />
+                    <ToggleRefinement
+                        className="toogle-refinement"
+                        attribute="Support"
+                        label="Support"
+                    />
+                </div>
                 <Pagination />
             </Modal>
         </InstantSearch>
