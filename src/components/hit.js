@@ -14,7 +14,6 @@ function Hit({hit}) {
                     <h2>
                         <Highlight attribute="name" hit={hit} classNames={{}} />
                     </h2>
-                </a>
                 <Snippet hit={hit} attribute="description" />
                 {hit.type == 'Docs' ? (
                     <p>
@@ -25,6 +24,7 @@ function Hit({hit}) {
                         {'🧰 ' + hit.type} {lastItem}
                     </p>
                 )}
+                </a>
             </article>
         </div>
     )

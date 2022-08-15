@@ -61,7 +61,7 @@
   z-index: 2;
   position: relative;
   /* margin: 0 auto; */
-  background-color: var(--ds-white);
+  background-color: var(--ds-gray-50);
   border: 1px solid rgba(255, 255, 255, 0.25);
   border-radius: 4px;
   overflow-x: hidden;

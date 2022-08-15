@@ -37,10 +37,14 @@ em {
 }
 
 article {
-    border-bottom: 1px solid var(--ds-gray-300);
+    background: var(--ds-white);
+    box-sizing: border-box;
     padding: 8px 24px 8px 24px;
+    margin: 6px;
+    /*padding-inline-start: 40px;*/
 }
-article:hover, article:hover > a > h2 {
+
+article:hover, article:hover > a {
     background: var(--ds-blue-700);
     color: var(--ds-white);
 }
@@ -60,11 +64,39 @@ article:hover, article:hover > a > h2 {
 #categories,
 #brands,
 #price,
-.ais-hits--item {
+
+.ais-Hits-item {
     height: auto;
     background: #fff;
+    box-shadow: var(--ds-hit-shadow);
+    border-bottom: 1px solid var(--ds-gray-300);
     border-radius: 4px;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    padding-bottom: 4px;
+    margin: 6px;
+}
+
+.ais-Hits-item:hover {
+    background: var(--ds-blue-700);
+}
+
+.ais-SearchBox {
+    margin: 6px;
+}
+
+/*ais-SearchBox-form::before {*/
+/*    border-color: #0d65be;*/
+
+/*}*/
+/*.ais-SearchBox-form::before {*/
+/*    box-sizing: border-box;*/
+/*    border-color: #0d65be;*/
+/*    !*background-color: var(--ds-gray-50);*!*/
+
+/*}*/
+
+
+.ais-Pagination-item--selected > a {
+    color: var(--ds-blue-400);
 }
 
 .left-panel {
@@ -83,7 +115,7 @@ article:hover, article:hover > a > h2 {
     margin-bottom: 16px;
 }
 
-.ais-stats {
+.ais-stats .results {
     font-size: 12px;
     color: #697782;
     opacity: 1;
