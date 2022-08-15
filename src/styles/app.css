@@ -1,6 +1,7 @@
 @import './variables/fonts.modules.css';
 @import './variables/colors.modules.css';
 @import './modal.css';
+@import './pagination.css';
 @import './reset.css';
 @import './stats.css';
 

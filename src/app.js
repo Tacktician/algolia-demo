@@ -39,7 +39,11 @@ function App() {
                         attribute="type"
                     />
                 </div>
-                <Pagination />
+                <Pagination
+                    className="pagination"
+                    showFirst={false}
+                    showLast={false}
+                />
             </Modal>
         </InstantSearch>
     )
