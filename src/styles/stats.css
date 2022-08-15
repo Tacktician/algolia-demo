@@ -11,3 +11,21 @@
 .toogle-refinement {
   margin-right: 24px;
 }
+
+/* Shows the number of Hits per each faced attribute */
+.ais-RefinementList-count {
+  display: none;
+}
+
+.toogle-refinement > .ais-RefinementList-list {
+  display: flex;
+}
+
+.toogle-refinement > .ais-RefinementList-list li {
+  margin-right: 24px;
+  color: var(--ds-blue-400);
+}
+
+input[type="checkbox"] {
+  accent-color: var(--ds-blue-400);
+}

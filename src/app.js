@@ -6,7 +6,7 @@ import {
     InstantSearch,
     Pagination,
     SearchBox,
-    ToggleRefinement,
+    RefinementList,
 } from 'react-instantsearch-hooks-web'
 import 'instantsearch.css/themes/reset.css'
 
@@ -34,15 +34,9 @@ function App() {
                 <Hits hitComponent={Hit} />
                 <div className="refinement">
                     <Stats />
-                    <ToggleRefinement
+                    <RefinementList
                         className="toogle-refinement"
-                        attribute="Docs"
-                        label="Docs"
-                    />
-                    <ToggleRefinement
-                        className="toogle-refinement"
-                        attribute="Support"
-                        label="Support"
+                        attribute="type"
                     />
                 </div>
                 <Pagination />
