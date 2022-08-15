@@ -26,6 +26,26 @@
   color: var(--ds-blue-400);
 }
 
+/*
+For more RefinementList component CSS classes check
+https://www.algolia.com/doc/api-reference/widgets/refinement-list/react-hooks/#widget-param-classnames
+*/
+
 input[type="checkbox"] {
-  accent-color: var(--ds-blue-400);
+  /* Add if not using autoprefixer */
+  -webkit-appearance: none;
+  appearance: none;
+  color: currentColor;
+  width: 14px;
+  height: 14px;
+  border: 0.15em solid currentColor;
+  border-radius: 0.15em;
+  margin: 0 4px 0 0;
+  padding: 0;
 }
+
+input[type="checkbox"]:checked {
+  background-color: var(--ds-blue-400);
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
+
