@@ -40,8 +40,8 @@ article {
     background: var(--ds-white);
     box-sizing: border-box;
     padding: 8px 24px 8px 24px;
-    margin: 6px;
-    /*padding-inline-start: 40px;*/
+    border-radius: 4px;
+    border-bottom: 1px solid var(--ds-gray-300);
 }
 
 article:hover, article:hover > a {
@@ -68,10 +68,9 @@ article:hover, article:hover > a {
 .ais-Hits-item {
     height: auto;
     background: #fff;
-    box-shadow: var(--ds-hit-shadow);
-    border-bottom: 1px solid var(--ds-gray-300);
     border-radius: 4px;
-    padding-bottom: 4px;
+    border-bottom: 1px solid var(--ds-gray-300);
+    box-shadow: var(--ds-hit-shadow);
     margin: 6px;
 }
 
