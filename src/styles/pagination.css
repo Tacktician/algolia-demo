@@ -1,0 +1,29 @@
+.pagination {
+  color: var(--ds-gray-600);
+}
+
+.ais-Pagination a {
+  color: var(--ds-gray-600);
+  font-size: medium;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.ais-Pagination a:hover {
+  font-size: large;
+  border-radius: 50%;
+  color: var(--ds-gray-700);
+  background-color: var(--ds-blue-200);
+}
+
+.ais-Pagination-item--selected > a {
+  font-size: medium;
+  background-color: var(--ds-blue-100);
+  border-radius: 50%;
+  color: var(--ds-gray-700);
+}
+
+.ais-Pagination-link {
+  color: var(--ds-gray-600);
+  font-size: x-large;
+}

@@ -1,0 +1,105 @@
+/*--------------------------------SEARCH BOX----------------------------------*/
+.ais-SearchBox-input {
+    width: 100%;
+    border: none;
+    height: 104px;
+    font-size: 24px;
+    padding: 24px;
+    color: var(--ds-gray-600);
+    border-bottom: 1px solid var(--ds-gray-300);
+}
+
+.ais-SearchBox-resetIcon {
+    display: none;
+}
+
+.ais-SearchBox-submit {
+    display: none;
+}
+
+/*--------------------------------PAGINATION----------------------------------*/
+/* .ais-pagination {
+    display: flex;
+    margin: 0 0 16px;
+    padding: 0;
+    background: none;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+    box-shadow: none;
+    flex-wrap: wrap;
+} */
+
+/* .ais-pagination--item,
+.ais-pagination--item__disabled {
+    flex: 0 0 40px;
+    width: auto;
+    height: auto;
+    margin: 4px;
+    background-color: #5468ff;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    text-align: center;
+    border-radius: 4px;
+    transition: all 0.1s linear;
+} */
+
+/* .ais-pagination--item__disabled {
+    display: none;
+}
+
+.ais-pagination--item:hover,
+.ais-pagination--item__active {
+    background-color: #3a46a1;
+} */
+
+/* .ais-pagination--item .ais-pagination--link,
+.ais-pagination--item__disabled .ais-pagination--link {
+    text-decoration: none;
+    color: #fff;
+    line-height: 32px;
+}
+
+#pagination:empty:before {
+    display: block;
+    color: rgb(153, 153, 153);
+    padding: 16px;
+} */
+
+/* pagination:empty {
+    padding: 0;
+    background: none;
+    border: dashed 3px #ddd;
+    box-shadow: none;
+    border-radius: 4px;
+}
+
+pagination:empty:before {
+    content: "Uncomment the pagination widget to add pagination.";
+} */
+
+/* .ais-Pagination ul {
+    list-style-type: none;
+    display: flex;
+}
+.ais-Pagination li {
+    padding: 1%;
+} */
+
+.ais-Pagination {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 24px;
+}
+
+.ais-Pagination li {
+    padding: 8px;
+    color: var(--ds-gray-400);
+}
+
