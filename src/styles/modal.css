@@ -78,9 +78,14 @@
   cursor: pointer;
 }
 
+.ais-Snippet {
+  font-weight: 200;
+  font-size: 1em;
+}
+
 .modal h2 {
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 1.1em;
+  font-weight: 600;
 }
 
 @keyframes fade-in {

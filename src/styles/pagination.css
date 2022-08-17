@@ -16,9 +16,9 @@
   background-color: var(--ds-blue-200);
 }
 
-.ais-Pagination a.active {
+.ais-Pagination-item--selected > a {
   font-size: medium;
-  background-color: var(--ds-blue-200);
+  background-color: var(--ds-blue-100);
   border-radius: 50%;
   color: var(--ds-gray-700);
 }
