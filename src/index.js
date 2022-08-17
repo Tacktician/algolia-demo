@@ -3,8 +3,7 @@ import {createRoot} from 'react-dom/client'
 
 import App from './app'
 
-const rootElement = document.getElementById('app')
-const root = createRoot(rootElement)
+const container = document.getElementById('app')
+const root = createRoot(container)
 
-const element = <App />
-root.render(element)
+root.render(<App />)
